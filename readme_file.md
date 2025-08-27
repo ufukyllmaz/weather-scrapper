@@ -6,7 +6,7 @@ A Python script to fetch 2 years of historical weather data for all cities in Tu
 
 - **Comprehensive Data**: Fetches 15 weather variables for each city
 - **2 Years Historical Data**: From August 2023 to August 2025
-- **All Turkish Cities**: 81 provinces + major districts (~81 locations)
+- **All Turkish Cities**: 81 provinces
 - **Multiple Formats**: Outputs both CSV and JSON files
 - **Robust Error Handling**: Rate limit protection, timeout retry, JSON validation
 - **Regional Analysis**: Groups data by Turkish geographical regions
@@ -25,8 +25,8 @@ The script collects the following daily weather data:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/turkish-weather-scraper.git
-   cd turkish-weather-scraper
+   git clone https://github.com/ufukyllmaz/weather-scrapper.git
+   cd weather-scrapper
    ```
 
 2. **Install required packages**
@@ -36,7 +36,7 @@ The script collects the following daily weather data:
 
 3. **Run the script**
    ```bash
-   python weather_scraper.py
+   python turkey_weather_scraper.py
    ```
 
 ## Configuration ⚙️
@@ -57,7 +57,7 @@ The script uses a `cities_config.json` file to define which cities to fetch data
       "name": "Ankara", 
       "lat": 39.9334,
       "lon": 32.8597,
-      "region": "Central Anatolia",
+      "region": "İç Anadolu",
       "population": 5663322
     }
   ]
